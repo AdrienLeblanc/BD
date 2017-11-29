@@ -1,0 +1,28 @@
+<html>
+
+<head>
+     <title>
+          Projet BD
+     </title>
+</head>
+<body>
+     <form action="index.php" method="post">
+          <input type="checkbox" name="requete1" value="requete1"> Requete 1 (Projection + selection) - Donner les noms et les prénoms des employés qui gagnent X euros ou plus
+          <p>Salaire employé : <input type="text" name="form_salaire_emp" /></p>
+          <p><input type="submit" value="OK"></p>
+     </form>
+     <form action="index.php" method="post">
+          <input type="checkbox" name="requete2" value="requete2"> Requete 2 (Jointure) - Donner les noms des markets présents dans la ville recherchée.
+          <p>Ville recherchee : <input type="text" name="form_ville_recherchee" /></p>
+          <p><input type="submit" value="OK"></p>
+     </form>
+     <form action="index.php" method="post">
+          <input type="checkbox" name="requete3" value="requete3"> Requete 3 (Jointure multiple) -  Donner le nom de chaque market, celui de sa ville, de son dirigeant et de sa société
+          <p><input type="submit" value="OK"></p>
+     </form>
+     <form action="index.php" method="post">
+          <input type="checkbox" name="requete4" value="requete4"> Requete 4 (Jointure externe) -  Donner la liste des clients et de leurs paiements
+          <p><input type="submit" value="OK"></p>
+     </form>
+</body>
+</html>
